@@ -1,0 +1,46 @@
+.add-form{
+    margin: auto;
+    height: 100%;
+    width: 800px;
+    background-color: #EC994B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+        align-items: center;
+        width: 500px;
+        height: 500px;
+    }
+
+    label{
+        color: #F1EEE9;
+    }
+
+    input{
+        width: 300px;
+    }
+
+
+    .row,.row-p{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 60px 0;
+        width: 100%;
+
+        .animal-desc{
+            width: 250px;
+            height: 130px;
+        }
+    }
+
+    row.p{
+        display: inline;
+    }
+
+    :disabled{
+        opacity: 0.5;
+    }
+
+}

@@ -1,0 +1,82 @@
+.homepage{
+
+    h1, h3{
+        margin: 3.5rem 0;
+        color: #15133C;
+    }
+
+.title, .about-us, .brand{
+    text-align: center;
+    color: #F1EEE9;
+    
+}   
+    
+
+.animals-home{
+    margin: 0 10%;
+    display: flex;
+    flex-direction: row;
+    background-color: #EC994B;
+    justify-content: center;
+    
+    img{
+
+        width: 200px;
+        height: 200px;
+    }
+   
+}
+
+.about-us{
+    
+    padding: 0 10%;
+
+    .our-description{
+        background-color: #EC994B;
+        text-align: center;
+        
+    }
+}
+
+.brand-img{
+    display: flex;
+    flex-direction: row;
+    background-color: #EC994B;
+    margin: 0 10%;
+    
+
+    .img-desc3, .img-desc1{
+        display: flex;
+        flex-direction: row;
+
+    }
+    
+    .img-desc3{
+        margin-left: auto;
+
+
+    }
+
+    .img-desc1{
+        margin-right: auto;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+    .contact-link{
+        margin: 0 10%;
+        background-color: #EC994B;
+        padding: 1% 0;
+        
+        a{
+            margin: 0 10%;
+            color: #F1EEE9;
+            text-decoration: none;
+        }
+    }
+}
+
